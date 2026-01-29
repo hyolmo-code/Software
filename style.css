@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #edf0f5;
+}
+
+.top-bar {
+  background: #3b5998;
+  padding: 12px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 6px;
+  margin-right: 5px;
+}
+
+.login-form button {
+  padding: 6px 10px;
+  background: #4267b2;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  padding: 40px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  width: 400px;
+}
+
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.signup-form input,
+.signup-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccd0d5;
+  border-radius: 4px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.gender {
+  margin: 10px 0;
+}
+
+.gender label {
+  margin-right: 15px;
+}
+
+.terms {
+  font-size: 12px;
+  color: #777;
+}
+
+.terms a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.signup-btn {
+  background: #42b72a;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
